@@ -122,29 +122,17 @@ public class Main {
     }
 
     private static void processGame(RequestConfig config, int bettingAmount, double bonusPercentage) {
-        double reward = 0.0;
-        String[][] finalMatrix = null;
-        Map<String, List<String>> appliedWinningCombinations = new HashMap<>();
-        List<String> appliedBonusSymbols = new ArrayList<>();
-        int count = 0;
-        while (reward <= 0) {
-            MatrixGenerator matrixGenerator = new MatrixGenerator(config, bonusPercentage);
-            String[][] matrix = matrixGenerator.generateMatrix();
+        MatrixGenerator matrixGenerator = new MatrixGenerator(config, bonusPercentage);
+        String[][] matrix = matrixGenerator.generateMatrix();
 
-            RewardCalculator rewardCalculator = new RewardCalculator(matrix, config, bettingAmount);
-            reward = rewardCalculator.calculateReward();
-            logger.info("Generated matrix and calculated reward: {}", reward);
+        RewardCalculator rewardCalculator = new RewardCalculator(matrix, config, bettingAmount);
+        double reward = rewardCalculator.calculateReward();
+        logger.info("Generated matrix and calculated reward: {}", reward);
 
-            if (reward > 0) {
-                finalMatrix = matrix;
-                appliedWinningCombinations = rewardCalculator.getAppliedWinningCombinations();
-                appliedBonusSymbols = rewardCalculator.getAppliedBonusSymbols();
-            }
-            count++;
-        }
-        logger.info("count: " + count);
+        Map<String, List<String>> appliedWinningCombinations = rewardCalculator.getAppliedWinningCombinations();
+        List<String> appliedBonusSymbols = rewardCalculator.getAppliedBonusSymbols();
 
-        printResult(finalMatrix, reward, appliedWinningCombinations, appliedBonusSymbols);
+        printResult(matrix, reward, appliedWinningCombinations, appliedBonusSymbols);
     }
 
     private static void printResult(String[][] finalMatrix, double reward,

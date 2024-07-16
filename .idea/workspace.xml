@@ -4,46 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ce55471-c379-499d-bdda-3ac290133a16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cf9aa96a354bf26a4cde26638a73c7e0c208e5a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2cf9aa96a354bf26a4cde26638a73c7e0c208e5a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/MatrixGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/RewardCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/model/BonusSymbols.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/model/Probabilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/model/RequestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/model/StandardSymbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/model/Symbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/model/WinCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/model/enums/Impact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/model/enums/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/model/enums/When.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lost_game.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/problem_description.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/won_game_3x3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/kropotov/MatrixGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/kropotov/RewardCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.json" afterDir="false" />
+    <list default="true" id="9ce55471-c379-499d-bdda-3ac290133a16" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cf9aa96a354bf26a4cde26638a73c7e0c208e5a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cf9aa96a354bf26a4cde26638a73c7e0c208e5a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kropotov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kropotov/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +121,7 @@
     "Gradle.RewardCalculatorTest.testCalculateRewardWithSameSymbols.executor": "Run",
     "Gradle.RewardCalculatorTest.testGetAppliedBonusSymbol.executor": "Run",
     "Gradle.RewardCalculatorTest.testGetAppliedWinningCombinations.executor": "Run",
-    "Gradle.assignment [:Main.main()].executor": "Debug",
+    "Gradle.assignment [:Main.main()].executor": "Run",
     "Gradle.assignment [assemble].executor": "Run",
     "Gradle.assignment [buildDependents].executor": "Run",
     "Gradle.assignment [build].executor": "Run",
@@ -166,6 +130,7 @@
     "Gradle.assignment [wrapper].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
@@ -194,7 +159,21 @@
       <recent name="ru.kropotov" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.assignment [clean]">
+  <component name="RunManager" selected="Gradle.assignment [build]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.kropotov.Main" />
+      <module name="assignment.main" />
+      <option name="PROGRAM_PARAMETERS" value="--config src/main/resources/config.json --betting-amount 100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kropotov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="assignment [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -229,28 +208,6 @@
         <option name="taskNames">
           <list>
             <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="assignment [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="classes" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -306,19 +263,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.assignment [assemble]" />
-      <item itemvalue="Gradle.assignment [classes]" />
       <item itemvalue="Gradle.assignment [wrapper]" />
       <item itemvalue="Gradle.assignment [build]" />
       <item itemvalue="Gradle.assignment [clean]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.assignment [clean]" />
-        <item itemvalue="Gradle.assignment [wrapper]" />
         <item itemvalue="Gradle.assignment [build]" />
+        <item itemvalue="Gradle.assignment [clean]" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.assignment [wrapper]" />
         <item itemvalue="Gradle.assignment [assemble]" />
-        <item itemvalue="Gradle.assignment [classes]" />
       </list>
     </recent_temporary>
   </component>
@@ -331,12 +288,25 @@
       <option name="presentableId" value="Default" />
       <updated>1721037276874</updated>
       <workItem from="1721037278086" duration="25400000" />
-      <workItem from="1721136518692" duration="14814000" />
+      <workItem from="1721136518692" duration="16839000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1721163508897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721163508897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -345,6 +315,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/kropotov/Main.java</url>
           <line>87</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/kropotov/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
